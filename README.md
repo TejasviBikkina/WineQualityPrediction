@@ -37,4 +37,4 @@ Once the image is pushed to the Docker hub now, we must pull the image from the 
 Commands to run the image as an instance (Container) and execute the application, sudo docker run --name model -d wqp copying the testdata.csv into the container sudo docker cp ../TestDataset.csv model:/
 get inside the container and execute the application sudo docker exec -it model sh now running the application to calculate the f1 score python Application.py TestDataset.csv
 
-GitHub link:https://github.com/TejasviBikkina/WineQualityPrediction  DockerHub link: 
+GitHub link:https://github.com/TejasviBikkina/WineQualityPrediction  DockerHub link: https://hub.docker.com/repository/docker/tj20ba/wine_quality_prediction
