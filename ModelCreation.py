@@ -53,6 +53,6 @@ print(accuracy)
 '''
 
 #saving the model
-#model.save(spark.sparkContext,'model')
+model.save(spark.sparkContext,'model')
 
 spark.stop()
